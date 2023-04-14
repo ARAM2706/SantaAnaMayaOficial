@@ -1,0 +1,66 @@
+.inicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.slidec_cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carousel {
+    width: 95%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.608);
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.carousel-caption:hover {
+    background: rgba(255, 255, 255, 0.608);
+    border-radius: 20px;
+    color: black;
+    transition: 0.6s;
+}
+
+
+/* Cards */
+
+.cont_cards,
+.cont_cards_noti {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.cont_cards_noti section {
+    display: flex;
+    width: 80%;
+    height: 600px;
+}
+
+.cont_cards_noti section a {
+    border: 3px solid rgba(48, 1, 75, 0.8);
+    border-radius: 10px;
+    width: 0;
+    flex-grow: 1;
+    opacity: .5;
+    transition: .5s ease-out;
+}
+
+.cont_cards_noti section a:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(100%);
+}
